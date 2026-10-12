@@ -1,5 +1,4 @@
 Table: CustomerNotification
-Purpose: Store customer notification history for the demo API.
 Partition key: customerId (String)
 Sort key: notificationId (String)
 Global secondary index: deliveryStatus-createdAt-index (deliveryStatus, createdAt)
