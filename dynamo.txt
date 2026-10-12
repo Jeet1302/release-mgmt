@@ -1,0 +1,5 @@
+Table: CustomerNotification
+Partition key: customerId (String)
+Sort key: notificationId (String)
+Global secondary index: deliveryStatus-createdAt-index (deliveryStatus, createdAt)
+TTL attribute: expiresAt (Unix epoch seconds)
